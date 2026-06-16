@@ -1,0 +1,15 @@
+{
+    "name": "componenta/http",
+    "description": "HTTP abstractions and PSR helpers for Componenta",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Componenta\\Http\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
